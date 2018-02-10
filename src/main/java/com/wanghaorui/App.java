@@ -20,7 +20,7 @@ public class App
     public static final Logger log = LoggerFactory.getLogger(App.class);
 
     public static final String XSD_LOACTION = "D://logs";
-    public static final String COMMON_XSD_LOACTION = "D:\\GT3-ZJ-金税三期标准服务清册_V2.23\\附录报文\\涉税服务管理\\公共XSD";
+    public static final String COMMON_XSD_LOACTION = "D:\\logs\\公共XSD";
     public static void main( String[] args ) throws IOException {
         log.info("start app...");
         //FileUtils.traverseFolder1(XSD_LOACTION);
