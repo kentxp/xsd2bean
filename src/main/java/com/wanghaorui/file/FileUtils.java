@@ -41,7 +41,7 @@ public class FileUtils {
                     }
                 }
             }else{
-                files.add(file.getAbsolutePath()+System.lineSeparator()+file.getName());
+                files.add(file.getAbsolutePath());
             }
         }
     }
