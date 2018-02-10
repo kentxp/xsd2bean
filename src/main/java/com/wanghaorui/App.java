@@ -36,7 +36,7 @@ public class App
         System.out.println(commonFiles);
 
        // FileUtils.initDirectoryNode(new File(XSD_LOACTION));
-        String source = FileUtils.readFile("D:\\logs\\123123\\esw\\jj\\HXZG_SF_00024\\TaxMLBw_SSFWGL_SF_00024_Request_V1.0.xsd");
+        String source = FileUtils.readFile("D:\\logs\\123123\\esw\\jj\\V1.0.xsd");
         String rgex = "schemaLocation=\"(.*?)\"/>";
         System.out.println(StrSub.getSubUtil(source,rgex));
 
